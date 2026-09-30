@@ -92,7 +92,7 @@ const Contact = () => {
 
             {/* Email */}
             <motion.a
-              href="mailto:badha@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=julhasahmed1@gmail.com"
               initial={{ opacity: 0, x: -60 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -109,7 +109,7 @@ const Contact = () => {
                 </p>
 
                 <p className="font-semibold font-pop text-gray-800">
-                  badha@gmail.com
+                  julhasahmed1@gmail.com
                 </p>
               </div>
             </motion.a>
