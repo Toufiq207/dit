@@ -5,7 +5,7 @@ import Hero from '../component/Hero'
 import Service from '../layout/Service'
 import Contact from '../layout/Contact'
 import Project from '../layout/Project'
-import Skill from '../layout/Skill'
+// import Skill from '../layout/Skill'
 import Exprierence from '../layout/Exprierence'
 import Faq from '../layout/Faq'
 import Teachers from './Teachers'
@@ -21,11 +21,11 @@ const Home = () => {
        
        
         <Teachers/>
-        <Skill/>
+        {/* <Skill/> */}
         <Exprierence/>
         <Service/>
         <Faq/>
-      <Project/>
+      {/* <Project/> */}
         <Contact/>
     </div>
   )

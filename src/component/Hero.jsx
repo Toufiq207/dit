@@ -220,7 +220,7 @@ const Hero = () => {
 
 
         {/* ================= Hero Intro ================= */}
-        <div
+        {/* <div
           className="
             mx-auto
             mt-7
@@ -271,10 +271,10 @@ const Hero = () => {
             "
           >
             {[
-              "DHAKA", 
+              "Dhaka",
               
-              "INFORMATION",
-              "TECNOLOGY",
+              "Information",
+              "Tecnology",
               
             ].map((word, index) => (
               <motion.span
@@ -302,57 +302,11 @@ const Hero = () => {
 
 
           {/* ================= Professional Title ================= */}
-          <motion.p
-            initial={{
-              opacity: 0,
-              y: 15,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              delay: 0.8,
-              duration: 0.6,
-            }}
-            className="
-              mx-auto
-              mt-3
-              max-w-2xl
-
-              text-sm
-              font-medium
-              leading-relaxed
-              text-gray-500
-
-              sm:text-base
-
-              md:text-lg
-
-              lg:text-xl
-            "
-          >
-            Digital Marketing Specialist
-            <span className="hidden sm:inline">
-              {" | "}
-            </span>
-
-            <span className="block sm:inline">
-              Trainer
-            </span>
-
-            <span className="hidden sm:inline">
-              {" | "}
-            </span>
-
-            <span className="block sm:inline">
-              ICT Professional
-            </span>
-          </motion.p>
+        
 
 
           {/* ================= CTA Buttons ================= */}
-          <motion.div
+          {/* <motion.div
             initial={{
               opacity: 0,
               y: 25,
@@ -381,212 +335,22 @@ const Hero = () => {
           >
 
             {/* Hire Me */}
-            <a
-              href="#contact"
-              className="
-                w-full
-                rounded-lg
-                bg-gray-900
-                px-6
-                py-3
-
-                text-center
-                text-sm
-                font-semibold
-                text-white
-
-                shadow-md
-
-                transition-all
-                duration-300
-
-                hover:-translate-y-1
-                hover:bg-white
-                hover:text-gray-900
-                hover:shadow-lg
-
-                sm:w-auto
-              "
-            >
-              Hire Me
-            </a>
+          
+          
 
 
             {/* View My Work */}
-            <a
-              href="#project"
-              className="
-                w-full
-                rounded-lg
-                bg-gray-900
-                px-6
-                py-3
+          
 
-                text-center
-                text-sm
-                font-semibold
-                text-white
+          
+          
 
-                shadow-md
+          {/* </motion.div> */} */
 
-                transition-all
-                duration-300
-
-                hover:-translate-y-1
-                hover:bg-white
-                hover:text-gray-900
-                hover:shadow-lg
-
-                sm:w-auto
-              "
-            >
-              View My Work
-            </a>
+        {/* </div> */} */
 
 
-            {/* Contact Me */}
-            <a
-              href="#contact"
-              className="
-                w-full
-                rounded-lg
-                bg-gray-900
-                px-6
-                py-3
-
-                text-center
-                text-sm
-                font-semibold
-                text-white
-
-                shadow-md
-
-                transition-all
-                duration-300
-
-                hover:-translate-y-1
-                hover:bg-white
-                hover:text-gray-900
-                hover:shadow-lg
-
-                sm:w-auto
-              "
-            >
-              Contact Me
-            </a>
-
-          </motion.div>
-
-        </div>
-
-
-        {/* ================= Social Icons ================= */}
-        <div
-          className="
-            mt-8
-            flex
-            w-full
-            items-center
-            justify-center
-            gap-4
-            pb-4
-
-            sm:mt-10
-            sm:gap-6
-
-            md:mt-12
-            md:gap-7
-
-            lg:mt-14
-            lg:gap-8
-          "
-        >
-
-          {/* Facebook */}
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-              transition-all
-              duration-300
-
-              hover:-translate-y-2
-              hover:scale-110
-            "
-          >
-            <Image
-              src={Facebook}
-              className="
-                w-10
-
-                sm:w-12
-
-                md:w-14
-
-                lg:w-16
-              "
-            />
-          </a>
-
-
-          {/* LinkedIn */}
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-              transition-all
-              duration-300
-
-              hover:-translate-y-2
-              hover:scale-110
-            "
-          >
-            <Image
-              src={Linkdin}
-              className="
-                w-10
-                rounded-lg
-
-                sm:w-12
-
-                md:w-14
-
-                lg:w-16
-              "
-            />
-          </a>
-
-
-          {/* Instagram */}
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-              transition-all
-              duration-300
-
-              hover:-translate-y-2
-              hover:scale-110
-            "
-          >
-            <Image
-              src={Instagram}
-              className="
-                w-10
-
-                sm:w-12
-
-                md:w-14
-
-                lg:w-16
-              "
-            />
-          </a>
-
-        </div>
+       
 
       </Container>
     </section>

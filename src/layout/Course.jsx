@@ -9,7 +9,7 @@ const Course = () => {
   return (
     <div>
       <Container>
-        <Heading text="Our Courses" />
+        <Heading className='pb-4' text="Our Courses" />
 
         <div className="flex flex-wrap justify-center gap-4">
           {coursedata.map((item) => (

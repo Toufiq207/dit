@@ -17,7 +17,7 @@ const TeacherCart = ({ pic, text }) => {
         <p className="text-base text-blue-500 font-bold">
           {text}
         </p>
-        <p></p>
+        {/* <p></p> */}
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const Teachers = () => {
           {teacherData.map((item) => (
             <TeacherCart
               key={item.id}
-              text={item.Name}
+              text={item.name}
               pic={item.pic}
             />
           ))}
