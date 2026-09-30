@@ -98,6 +98,7 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
               className="mb-5 flex items-center gap-4 rounded-xl border border-gray-200 p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+            target="blak"
             >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-100">
                 <FaEnvelope className="text-xl text-gray-800" />
