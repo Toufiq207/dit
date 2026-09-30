@@ -4,12 +4,12 @@ import HasibulHasan from "../assets/Teacher/hasibulHasan.jpg";
 const teacherData = [
   {
     id: 1,
-    name: "Toufiq Lizon",
+    name: "Toufiq",
     pic: Toufiq,
   },
   {
     id: 2,
-    name: "Hasibul Hasan",
+    name: "HasibulHasan",
     pic: HasibulHasan,
   },
 ];
