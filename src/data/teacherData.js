@@ -1,5 +1,5 @@
 import Toufiq from "../assets/Teacher/toufiq.png";
-import HasibulHasan from "../assets/Teacher/HasibulHasan.jpg";
+import HasibulHasan from "../assets/Teacher/hasibulHasan.jpg";
 
 const teacherData = [
   {
