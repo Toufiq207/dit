@@ -1,119 +1,147 @@
+
 import {
-FaSearch,
-FaBullhorn,
-FaChartLine,
-FaUsers,
-FaLightbulb,
-FaGraduationCap,
+  FaLanguage,
+  FaPenNib,
+  FaCode,
+  FaVideo,
+  FaBullhorn,
+  FaCalculator,
 } from "react-icons/fa";
 
 const serviceData = [
-{
-id: 1,
-title: "SEO Services",
-description:
-"Professional SEO services to improve search rankings, website visibility, and organic traffic.",
-details:
-"I provide complete SEO solutions to help businesses improve their online visibility and achieve better search engine rankings. From keyword research to technical optimization, I focus on building a strong and sustainable SEO strategy.",
-features: [
-"Complete SEO Audit",
-"Keyword Research",
-"On-Page SEO",
-"Technical SEO",
-"Local SEO",
-"Off-Page SEO",
-"Competitor Analysis",
-],
-icon: FaSearch,
-},
+  {
+    id: 1,
+    title: "Teaching English",
+    description:
+      "Practical English language teaching to improve speaking, writing, reading, and communication skills.",
 
-{
-id: 2,
-title: "Social Media Marketing",
-description:
-"Strategic social media marketing to grow your brand, audience, engagement, and online presence.",
-details:
-"I help businesses build and manage a strong social media presence through strategic planning, content marketing, audience engagement, and platform-specific marketing strategies.",
-features: [
-"Facebook Page Management",
-"Instagram Marketing",
-"TikTok Marketing",
-"LinkedIn Marketing",
-"Social Media Strategy",
-"Content Strategy",
-],
-icon: FaBullhorn,
-},
+    details:
+      "I provide practical English lessons designed to help students improve their communication skills, vocabulary, grammar, reading, writing, and everyday English usage.",
 
-{
-id: 3,
-title: "Paid Advertising",
-description:
-"Targeted advertising campaigns designed to generate leads, increase conversions, and grow your business.",
-details:
-"I create and manage data-driven paid advertising campaigns focused on reaching the right audience, generating quality leads, improving conversions, and maximizing advertising performance.",
-features: [
-"Facebook Ads",
-"Instagram Ads",
-"Google Ads",
-"Lead Generation Campaign",
-"Conversion Campaign",
-"Retargeting",
-"Pixel & Tracking Setup",
-"A/B Testing",
-],
-icon: FaChartLine,
-},
+    features: [
+      "English Grammar",
+      "Spoken English",
+      "English Writing",
+      "Reading Practice",
+      "Vocabulary Development",
+      "Communication Skills",
+    ],
 
-{
-id: 4,
-title: "Lead Generation",
-description:
-"Effective lead generation strategies to help businesses find and connect with potential customers.",
-details:
-"I develop targeted lead generation strategies to help businesses attract potential customers and generate high-quality leads through social media, landing pages, email marketing, and B2B outreach.",
-features: [
-"Facebook Lead Generation",
-"Landing Page Strategy",
-"Email Lead Generation",
-"B2B Lead Generation",
-],
-icon: FaUsers,
-},
+    icon: FaLanguage,
+  },
 
-{
-id: 5,
-title: "Digital Marketing Consultation",
-description:
-"Professional marketing consultation to create effective strategies for business growth and online success.",
-details:
-"I provide practical digital marketing consultation to help businesses understand their audience, choose the right marketing channels, improve their online presence, and build effective growth strategies.",
-features: [
-"Marketing Strategy",
-"Business Growth Strategy",
-"Social Media Strategy",
-"SEO Strategy",
-"Paid Ads Strategy",
-],
-icon: FaLightbulb,
-},
+  {
+    id: 2,
+    title: "Teaching Handwriting",
+    description:
+      "Improve handwriting skills with practical lessons focused on neat, clear, and beautiful writing.",
 
-{
-id: 6,
-title: "Training & Mentoring",
-description:
-"Professional training and mentoring for individuals interested in digital marketing and freelancing.",
-details:
-"I provide practical guidance and training for individuals who want to develop professional digital marketing skills and build their careers in freelancing and online marketing.",
-features: [
-"Digital Marketing Training",
-"Freelancing Training",
-"SEO Training",
-"Facebook Ads Training",
-"Google Ads Training",
-],
-icon: FaGraduationCap,
-},
+    details:
+      "I provide handwriting training to help students develop neat, readable, and সুন্দর handwriting through regular practice and proper writing techniques.",
+
+    features: [
+      "English Handwriting",
+      "Bangla Handwriting",
+      "Writing Practice",
+      "Letter Formation",
+      "Neat Writing",
+      "Handwriting Improvement",
+    ],
+
+    icon: FaPenNib,
+  },
+
+  {
+    id: 3,
+    title: "Web Development",
+    description:
+      "Learn modern web development and build responsive, professional, and user-friendly websites.",
+
+    details:
+      "I teach modern web development technologies and practical project-based development so students can build responsive and professional websites and develop real-world skills.",
+
+    features: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Web Design",
+      "Git & GitHub",
+    ],
+
+    icon: FaCode,
+  },
+
+  {
+    id: 4,
+    title: "Teaching Video Editing",
+    description:
+      "Learn professional video editing techniques to create engaging and high-quality videos.",
+
+    details:
+      "I provide practical video editing training covering the essential techniques needed to create engaging videos for social media, YouTube, business promotion, and other digital platforms.",
+
+    features: [
+      "Video Editing Basics",
+      "Video Cutting & Trimming",
+      "Transitions",
+      "Text & Titles",
+      "Audio Editing",
+      "Color Correction",
+      "Social Media Video Editing",
+    ],
+
+    icon: FaVideo,
+  },
+
+  {
+    id: 5,
+    title: "Digital Marketing",
+    description:
+      "Learn digital marketing strategies to promote businesses, reach customers, and grow online.",
+
+    details:
+      "I provide practical digital marketing training covering social media marketing, SEO, paid advertising, content strategy, lead generation, and other essential online marketing techniques.",
+
+    features: [
+      "SEO",
+      "Social Media Marketing",
+      "Facebook Marketing",
+      "Google Ads",
+      "Lead Generation",
+      "Content Marketing",
+      "Digital Marketing Strategy",
+    ],
+
+    icon: FaBullhorn,
+  },
+
+  {
+    id: 6,
+    title: "Mathematics",
+    description:
+      "Learn mathematics through simple explanations, practical examples, and regular problem-solving practice.",
+
+    details:
+      "I provide mathematics lessons focused on building strong fundamental concepts and problem-solving skills through easy explanations and practical examples.",
+
+    features: [
+      "Basic Mathematics",
+      "Arithmetic",
+      "Algebra",
+      "Geometry",
+      "Problem Solving",
+      "Mathematical Practice",
+    ],
+
+    icon: FaCalculator,
+  },
 ];
 
 export default serviceData;
+
+
+
+
+

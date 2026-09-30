@@ -27,7 +27,7 @@ return ( <nav className="fixed inset-x-0 top-0 z-[999999] w-full font-pop">
       {/* Logo */}
       <a href="#home" className="group">
         <h1 className="text-4xl font-bold tracking-wider text-white">
-          RI<span className="text-red-500">B</span>
+          DI<span className="text-red-500">T</span>
         </h1>
 
         <div className="h-[2px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
