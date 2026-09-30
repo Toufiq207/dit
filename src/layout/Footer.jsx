@@ -60,7 +60,7 @@ const Footer = () => {
             {/* Logo */}
             <a href="#home" className="group inline-block">
               <h1 className="text-4xl font-bold tracking-wider text-white">
-                RI<span className="text-red-500">B</span>
+                DI<span className="text-red-500">T</span>
               </h1>
             </a>
 
