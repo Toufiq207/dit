@@ -10,6 +10,7 @@ import Project from '../layout/Project'
 import Faq from '../layout/Faq'
 // import Teachers from './Teachers'
 import Course from '../layout/Course'
+import Faculty from './Faculty'
 const Home = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const Home = () => {
 
 
 <Course/>
+<Faculty/>
 
        
 {/*        
