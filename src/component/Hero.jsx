@@ -28,7 +28,7 @@ import {
 
 const Hero = () => {
   return (
-    <section
+    <section id="home"
      className="pt-18 md:pt-20"
     >
       <Container>
@@ -278,53 +278,27 @@ const Hero = () => {
           </motion.h1>
 
 
-          {/* ================= Professional Title ================= */}
+          
         
 
 
-          {/* ================= CTA Buttons ================= */}
-          {/* <motion.div
-            initial={{
-              opacity: 0,
-              y: 25,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              delay: 1,
-              duration: 0.7,
-            }}
-            className="
-              mt-6
-              flex
-              w-full
-              flex-col
-              items-center
-              justify-center
-              gap-3
+      
+      
 
-              sm:mt-8
-              sm:flex-row
-              sm:gap-4
-            "
-          >
-
-            {/* Hire Me */}
+          
           
           
 
 
-            {/* View My Work */}
+    
           
 
           
           
 
-          {/* </motion.div> */} */
+          
 
-        {/* </div> */} */
+        
 
 
        

@@ -8,12 +8,12 @@ const [open, setOpen] = useState(false);
 
 const menuItems = [
 { name: "Home", link: "#home" },
-{ name: "About", link: "#about" },
+{ name: "Courses", link: "#courses" },
+{ name: "Faculty", link: "#faculty" },
 { name: "Service", link: "#service" },
-{ name: "Skills", link: "#skills" },
+
 { name: "FAQ", link: "#faq" },
-{ name: "Experience", link: "#experience" },
-{ name: "Project", link: "#project" },
+
 { name: "Contact", link: "#contact" },
 ];
 

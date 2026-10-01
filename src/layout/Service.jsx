@@ -40,7 +40,7 @@ return ( <section className="py-16 font-pop" id="service"> <Container>
       <Heading
         className="text-center"
         intro=" WHAT I OFFER"
-        text="My Services"
+        text="Our Services"
         para='Professional digital marketing solutions designed to improve
         your online presence, generate leads, and grow your business.'
       />

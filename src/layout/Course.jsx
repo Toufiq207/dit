@@ -7,7 +7,7 @@ import coursedata from "../data/coursedata";
 
 const Course = () => {
   return (
-    <div>
+    <div id="courses"  className="scroll-mt-3 py-10">
       <Container>
         <Heading className='pb-4' text="Our Courses" />
 
