@@ -1,39 +1,42 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
+ 
   FaArrowUp,
   FaHeart,
+  FaYoutube,
 } from "react-icons/fa";
 import Container from "../component/Container";
 import serviceData from "../data/serviceData";
 
 const Footer = () => {
   const quickLinks = [
-    { name: "Home", link: "#home" },
-    { name: "About", link: "#about" },
-    { name: "Skills", link: "#skills" },
-    { name: "Experience", link: "#experience" },
-    { name: "Projects", link: "#project" },
-    { name: "Contact", link: "#contact" },
+   { name: "Home", link: "#home" },
+{ name: "Courses", link: "#courses" },
+{ name: "Faculty", link: "#faculty" },
+{ name: "Service", link: "#service" },
+
+{ name: "FAQ", link: "#faq" },
+
+{ name: "Contact", link: "#contact" },
   ];
 
   const socialLinks = [
-    {
-      icon: <FaLinkedinIn />,
-      link: "https://www.linkedin.com/",
-      label: "LinkedIn",
-    },
+    // {
+    //   icon: <FaLinkedinIn />,
+    //   link: "https://www.linkedin.com/",
+    //   label: "LinkedIn",
+    // },
     {
       icon: <FaFacebookF />,
-      link: "https://www.facebook.com/",
+      link: "https://www.facebook.com/julhas.ahmed.7547",
       label: "Facebook",
     },
     {
-      icon: <FaTwitter />,
-      link: "https://twitter.com/",
-      label: "Twitter",
+      icon: <FaYoutube />,
+      link: "https://www.youtube.com/@lijonlijon46",
+      
+      label: "Youtube",
     },
   ];
 
@@ -66,10 +69,7 @@ const Footer = () => {
 
             {/* Description */}
             <p className="mt-5 max-w-sm text-sm leading-7 text-gray-400">
-              Welcome! I’m Md Rakibul Islam Badhan. I help businesses
-              transform their digital presence into revenue-generating
-              engines through targeted digital marketing, strategic SEO,
-              and high-converting ad campaigns.
+         Empowering students with practical IT skills, professional training, and career-focused learning opportunities for the digital world.
             </p>
 
             {/* Social Icons */}
@@ -157,7 +157,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p>
-            © {new Date().getFullYear()} Rakibul Islam Badhan.
+            © {new Date().getFullYear()} Toufiq Lizon.
             <span className="hidden sm:inline"> All rights reserved.</span>
           </p>
 
@@ -165,7 +165,7 @@ const Footer = () => {
           <p className="flex items-center gap-1">
             Made with
             <FaHeart className="text-red-500" />
-            by Rakibul
+            by Lizon
           </p>
 
           {/* Back To Top */}
