@@ -4,9 +4,8 @@ import Container from "./Container";
 import Image from "./Image";
 import bannerData from "../data/bannerData";
 
-import Facebook from "../assets/icon/facebook.webp";
-import Linkdin from "../assets/icon/linkedin.webp";
-import Instagram from "../assets/icon/instagram.webp";
+
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -30,24 +29,7 @@ import {
 const Hero = () => {
   return (
     <section
-      id="home"
-      className="
-        w-full
-        max-w-full
-        overflow-x-hidden
-        bg-white
-        pt-20
-        pb-8
-
-        sm:pt-24
-        sm:pb-12
-
-        md:pt-28
-        md:pb-14
-
-        lg:pt-32
-        lg:pb-16
-      "
+     className="pt-18 md:pt-20"
     >
       <Container>
 
@@ -59,13 +41,8 @@ const Hero = () => {
             w-full
             max-w-full
 
-            sm:w-[full]
-
-            md:w-[full]
-
-            lg:w-[8full
-
-            xl:w-[full]
+           
+            
           "
         >
 

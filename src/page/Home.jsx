@@ -6,9 +6,9 @@ import Service from '../layout/Service'
 import Contact from '../layout/Contact'
 import Project from '../layout/Project'
 // import Skill from '../layout/Skill'
-import Exprierence from '../layout/Exprierence'
+// import Exprierence from '../layout/Exprierence'
 import Faq from '../layout/Faq'
-// import Teachers from './Teachers'
+import Teachers from './Teachers'
 import Course from '../layout/Course'
 const Home = () => {
   return (
@@ -20,9 +20,10 @@ const Home = () => {
 
        
        
-        {/* <Teachers/> */}
+        <Teachers/>
+
         {/* <Skill/> */}
-        <Exprierence/>
+        {/* <Exprierence/> */}
         <Service/>
         <Faq/>
       {/* <Project/> */}

@@ -17,7 +17,8 @@ const menuItems = [
 { name: "Contact", link: "#contact" },
 ];
 
-return ( <nav className="fixed inset-x-0 top-0 z-[999999] w-full font-pop">
+return ( 
+<nav className="fixed inset-x-0 top-0 z-[999999] w-full font-pop">
 
 
   {/* ================= DESKTOP NAVBAR ================= */}
