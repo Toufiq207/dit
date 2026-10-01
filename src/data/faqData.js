@@ -1,32 +1,27 @@
 const faqData = [
   {
-    ques: "What digital marketing services do you provide?",
-
-    Ans: "I provide SEO, Social Media Marketing, Facebook Ads, Google Ads, Lead Generation, Email Marketing and Digital Marketing Strategy services."
+    ques: "What courses does Dhaka IT offer?",
+    Ans: "Dhaka IT offers courses in Web Development, Digital Marketing, Graphic Design, Freelancing, and other IT-related skills."
   },
 
   {
-    ques: "Do you work with international clients?",
-
-    Ans: "Yes. I am available to work with clients and businesses from Bangladesh and internationally."
+    ques: "Are the courses suitable for beginners?",
+    Ans: "Yes. Our courses are designed for beginners as well as learners who already have some basic knowledge."
   },
 
   {
-    ques: "Can you manage Facebook and Instagram advertising campaigns?",
-
-    Ans: "Yes. I can handle campaign strategy, audience research, campaign setup, tracking, optimization, retargeting and performance analysis."
+    ques: "Will I be able to start freelancing after completing a course?",
+    Ans: "Yes. Students learn practical skills along with freelancing, marketplace, client communication, and real-world project knowledge."
   },
 
   {
-    ques: "Do you provide Digital Marketing training?",
-
-    Ans: "Yes. I provide practical training and mentoring in Digital Marketing, SEO, Social Media Marketing, Facebook Ads and Freelancing."
+    ques: "How are the classes conducted?",
+    Ans: "Our classes are conducted by experienced trainers using a practical and project-based learning approach to help students develop real-world skills."
   },
 
   {
-    ques: "How can I hire you?",
-
-    Ans: "You can contact me through my website contact form, email, social media platforms, or other available contact methods to discuss your project and requirements."
+    ques: "How can I enroll in a course at Dhaka IT?",
+    Ans: "You can contact Dhaka IT through our website or available contact channels to learn about courses, schedules, fees, and the admission process."
   },
 ];
 
