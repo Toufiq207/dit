@@ -17,7 +17,11 @@ const Faq = () => {
 
     {/* Heading */}
     <div className="mb-10 text-center">
-      <Haeding para='Frequently Asked Questions' text="FAQ" />
+      <Haeding   intro="FAQ"
+  text="Frequently Asked Questions"
+  para="Find answers to common questions about our courses, training programs, admission process, and learning opportunities."
+      
+      />
 
     
     

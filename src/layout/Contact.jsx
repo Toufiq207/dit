@@ -18,10 +18,14 @@ const Contact = () => {
       <Container>
 
         {/* Heading */}
-        <Heading className="mb-10 text-center" text="Contact Me" />
+        <Heading className=" text-center" 
+          intro="Get In Touch"
+  text="Let's Start Your Journey"
+  para="Have questions about our courses or training programs? Contact us today and our team will be happy to provide the information you need."
+        />
 
         <Image
-          className="w-full pb-4"
+          className="w-full pb-4 pt-10"
           src={ContactImg}
         />
 

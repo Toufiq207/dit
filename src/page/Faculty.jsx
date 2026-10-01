@@ -14,7 +14,11 @@ const Faculty = () => {
   return (
     <section id="faculty"  className="bg-gray-50 py-10 scroll-mt-2 py-10" >
       <Container>
-        <Heading text="Our Teacher" />
+       <Heading
+  intro="Our Faculty"
+  text="Meet Our Experienced Instructors"
+  para="Learn from skilled and dedicated instructors who focus on practical learning, real-world projects, and career development."
+/>
 
         {/* Faculty Cards */}
         <div className="mt-8 flex flex-wrap justify-center gap-6">

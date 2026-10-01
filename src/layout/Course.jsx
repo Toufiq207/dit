@@ -9,9 +9,15 @@ const Course = () => {
   return (
     <div id="courses"  className="scroll-mt-3 py-10">
       <Container>
-        <Heading className='pb-4' text="Our Courses" />
+        
+        <Heading
+        
+  intro="Our Courses"
+  text="Learn Skills That Matter"
+  para="Explore industry-focused courses designed to help you develop practical skills and build a strong foundation for your professional career."
+/>
 
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4 pt-4">
           {coursedata.map((item) => (
             <Coursecart
               key={item.id}
