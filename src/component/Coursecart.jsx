@@ -4,10 +4,10 @@ import Image from './Image'
 
 const Coursecart = ({img}) => {
   return (
-    <div className="flex flex-wrap gap-5 w-[400px]">
+    <div className="flex flex-wrap gap-5 w-[400px] ">
   
   
-  <Image className='w-full' src={img}/>
+  <Image className='w-full hover:scale-105' src={img}/>
 </div>
   )
 }
