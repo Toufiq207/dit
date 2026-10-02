@@ -60,7 +60,7 @@ return (
       {/* Logo */}
       <a href="#home">
         <h1 className="text-3xl font-bold text-white">
-          RI<span className="text-red-500">B</span>
+          DI<span className="text-red-500">T</span>
         </h1>
       </a>
 
