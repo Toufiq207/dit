@@ -34,7 +34,7 @@ const Footer = () => {
     },
     {
       icon: <FaYoutube />,
-      link: "https://www.youtube.com/@lijonlijon46",
+      link: "https://www.youtube.com/@dhakait1",
       
       label: "Youtube",
     },
