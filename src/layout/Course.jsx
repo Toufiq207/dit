@@ -28,9 +28,11 @@ const Course = () => {
 
         {/* Apply Button */}
         <div className="flex justify-center mt-8">
-          <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhKbHIo2J7eWmoEQvt834jGAjFlb_US1wR4z0zg_5pQpEOyg/viewform?usp=publish-editor" target="blank">
+           <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
             Registaration Now
           </button>
+         </a>
         </div>
       </Container>
     </div>
