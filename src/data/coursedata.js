@@ -1,55 +1,53 @@
 
-import WebDev from '../assets/courseImage/webdevCourse.png'
-import Hanwriting from '../assets/courseImage/hanwritigCourse.png'
+
+
+import Hanwriting from '../assets/courseImage/handwriting.png'
+import Computer from '../assets/courseImage/computer.png'
+import Ai from '../assets/courseImage/ai.png'
+import Eng from '../assets/courseImage/eng.png'
+import Videoediting from '../assets/courseImage/videoediting.png'
+import Htmlcss from '../assets/courseImage/htmlcss.png'
+import Fdr from '../assets/courseImage/fdr.png'
+import DigitalMarketing from '../assets/courseImage/digitalMarketing.png'
+import Japneslan from '../assets/courseImage/japneslan.png'
 const coursedata=[
     {
         id:1,
-        img:WebDev
+        img:Hanwriting 
     },
     {
         id:2,
-        img:Hanwriting
+        img:Computer
     },
     {
         id:3,
-        img:WebDev
+        img:Ai
     },
     {
         id:4,
-        img:Hanwriting
+        img:Eng
     },
     {
         id:5,
-        img:WebDev
+        img:Videoediting 
     },
     {
         id:6,
-        img:Hanwriting
+        img:Htmlcss
     },
     {
         id:7,
-        img:WebDev
+        img:Fdr
     },
     {
         id:8,
-        img:Hanwriting
+        img:DigitalMarketing
     },
     {
         id:9,
-        img:WebDev
+        img:Japneslan
     },
-    {
-        id:10,
-        img:Hanwriting
-    },
-    {
-        id:11,
-        img:WebDev
-    },
-    {
-        id:12,
-        img:Hanwriting
-    },
+   
 ]
 
 export default coursedata;

@@ -1,58 +1,37 @@
-
 import {
-  FaLanguage,
-  FaPenNib,
   FaCode,
-  FaVideo,
   FaBullhorn,
-  FaCalculator,
+  FaVideo,
+  FaPalette,
+  FaRobot,
+  
+  FaPenFancy,
 } from "react-icons/fa";
 
 const serviceData = [
-  {
+   {
     id: 1,
-    title: "Teaching English",
+    title: "Digital Marketing",
     description:
-      "Practical English language teaching to improve speaking, writing, reading, and communication skills.",
+      "Learn digital marketing strategies to promote businesses, reach customers, and grow online.",
 
     details:
-      "I provide practical English lessons designed to help students improve their communication skills, vocabulary, grammar, reading, writing, and everyday English usage.",
+      "I provide practical digital marketing training covering social media marketing, SEO, paid advertising, content strategy, lead generation, and other essential online marketing techniques.",
 
     features: [
-      "English Grammar",
-      "Spoken English",
-      "English Writing",
-      "Reading Practice",
-      "Vocabulary Development",
-      "Communication Skills",
+      "SEO",
+      "Social Media Marketing",
+      "Facebook Marketing",
+      "Google Ads",
+      "Lead Generation",
+      "Content Marketing",
+      "Digital Marketing Strategy",
     ],
 
-    icon: FaLanguage,
+    icon: FaBullhorn,
   },
-
   {
     id: 2,
-    title: "Teaching Handwriting",
-    description:
-      "Improve handwriting skills with practical lessons focused on neat, clear, and beautiful writing.",
-
-    details:
-      "I provide handwriting training to help students develop neat, readable, and সুন্দর handwriting through regular practice and proper writing techniques.",
-
-    features: [
-      "English Handwriting",
-      "Bangla Handwriting",
-      "Writing Practice",
-      "Letter Formation",
-      "Neat Writing",
-      "Handwriting Improvement",
-    ],
-
-    icon: FaPenNib,
-  },
-
-  {
-    id: 3,
     title: "Web Development",
     description:
       "Learn modern web development and build responsive, professional, and user-friendly websites.",
@@ -73,75 +52,97 @@ const serviceData = [
     icon: FaCode,
   },
 
+ 
+
   {
-    id: 4,
-    title: "Teaching Video Editing",
+    id: 3,
+    title: "Video Editing",
     description:
-      "Learn professional video editing techniques to create engaging and high-quality videos.",
+      "Learn professional video editing techniques to create engaging and high-quality video content.",
 
     details:
-      "I provide practical video editing training covering the essential techniques needed to create engaging videos for social media, YouTube, business promotion, and other digital platforms.",
+      "I teach practical video editing skills including video cutting, transitions, effects, audio editing, color correction, subtitles, and social media video production.",
 
     features: [
-      "Video Editing Basics",
+      "Video Editing",
       "Video Cutting & Trimming",
-      "Transitions",
-      "Text & Titles",
+      "Transitions & Effects",
       "Audio Editing",
       "Color Correction",
-      "Social Media Video Editing",
+      "Subtitle & Caption",
+      "Social Media Videos",
     ],
 
     icon: FaVideo,
   },
 
   {
-    id: 5,
-    title: "Digital Marketing",
+    id: 4,
+    title: "Graphic Design",
     description:
-      "Learn digital marketing strategies to promote businesses, reach customers, and grow online.",
+      "Learn creative graphic design skills to create professional and visually attractive digital content.",
 
     details:
-      "I provide practical digital marketing training covering social media marketing, SEO, paid advertising, content strategy, lead generation, and other essential online marketing techniques.",
+      "I provide practical graphic design training focused on creating professional social media posts, banners, thumbnails, promotional materials, and brand visuals.",
 
     features: [
-      "SEO",
-      "Social Media Marketing",
-      "Facebook Marketing",
-      "Google Ads",
-      "Lead Generation",
-      "Content Marketing",
-      "Digital Marketing Strategy",
+      "Social Media Design",
+      "Banner Design",
+      "Poster Design",
+      "Thumbnail Design",
+      "Branding Design",
+      "Canva",
+      "Creative Design",
     ],
 
-    icon: FaBullhorn,
+    icon: FaPalette,
   },
 
   {
-    id: 6,
-    title: "Mathematics",
+    id: 5,
+    title: "AI Services & Prompting",
     description:
-      "Learn mathematics through simple explanations, practical examples, and regular problem-solving practice.",
+      "Learn how to use AI tools and effective prompting techniques to improve productivity and business workflows.",
 
     details:
-      "I provide mathematics lessons focused on building strong fundamental concepts and problem-solving skills through easy explanations and practical examples.",
+      "I teach practical AI usage, prompt engineering, AI-assisted content creation, research, automation ideas, and effective workflows using modern AI tools.",
 
     features: [
-      "Basic Mathematics",
-      "Arithmetic",
-      "Algebra",
-      "Geometry",
-      "Problem Solving",
-      "Mathematical Practice",
+      "AI Tools",
+      "Prompt Engineering",
+      "ChatGPT",
+      "AI Content Creation",
+      "AI Research",
+      "AI Automation",
+      "Productivity with AI",
     ],
 
-    icon: FaCalculator,
+    icon: FaRobot,
+  },
+
+ 
+
+  {
+    id: 6,
+    title: "Content Writing & Copywriting",
+    description:
+      "Learn how to write engaging content and persuasive copy for websites, social media, and businesses.",
+
+    details:
+      "I teach practical content writing and copywriting techniques for creating website content, social media posts, product descriptions, advertisements, blogs, and marketing copy.",
+
+    features: [
+      "Content Writing",
+      "Copywriting",
+      "Website Content",
+      "Blog Writing",
+      "Product Description",
+      "Social Media Content",
+      "Advertising Copy",
+    ],
+
+    icon: FaPenFancy,
   },
 ];
 
 export default serviceData;
-
-
-
-
-
