@@ -4,13 +4,12 @@ import Hero from '../component/Hero'
 
 import Service from '../layout/Service'
 import Contact from '../layout/Contact'
-import Project from '../layout/Project'
-// import Skill from '../layout/Skill'
-// import Exprierence from '../layout/Exprierence'
+
+
 import Faq from '../layout/Faq'
-// import Teachers from './Teachers'
+
 import Course from '../layout/Course'
-import Faculty from './Faculty'
+// import Faculty from './Faculty'
 const Home = () => {
   return (
     <div>
@@ -18,17 +17,15 @@ const Home = () => {
 
 
 <Course/>
-<Faculty/>
+{/* <Faculty/> */}
 
        
-{/*        
-        <Teachers/> */}
 
-        {/* <Skill/> */}
-        {/* <Exprierence/> */}
+
         <Service/>
         <Faq/>
-      {/* <Project/> */}
+    
+    
         <Contact/>
     </div>
   )

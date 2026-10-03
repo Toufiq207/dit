@@ -112,8 +112,8 @@ const facultyData = [
       "Japanese Conversation",
     ],
 
-    email: "julhas@example.com",
-    phone: "+880 1XXXXXXXXX",
+    email: "julhasahmed1@gmail.com",
+    phone: "+880 1676-796903",
 
     social: {
       facebook: "#",
