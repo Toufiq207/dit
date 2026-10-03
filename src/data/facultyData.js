@@ -1,7 +1,8 @@
 
-import HasibulHasan from "../assets/faculty/hasibulHasan.png";
+
 import Julhas from "../assets/faculty/julhas.png";
 import Lizon from '../assets/faculty/lizon.png'
+import Imran from '../assets/faculty/imran.png'
 const facultyData = [
   {
     id: 1,
@@ -46,7 +47,7 @@ const facultyData = [
   {
     id: 3,
     name: "MD IMRAN HOSSEN",
-    img: Julhas,
+    img: Imran,
     sub: "Digital Marketing & SEO",
 
     // Profile Information
@@ -59,20 +60,23 @@ const facultyData = [
 
     skills: [
       "Social Media Marketing SMM",
-      "",
-      "",
-      "",
-      "",
+      "Facebook Marketing",
+      "Facebook Ads",
+      "Google Ads",
+      "Keyword Research",
+      "Lead Generation",
+      "Email Marketing",
+      "Competitor Analysis",
+      "Search Engine Optimization SEO",
     ],
 
     courses: [
-      "Japanese Language",
-      "JLPT Preparation",
-      "Japanese Conversation",
+      "Digital Marketing",
+      
     ],
 
-    email: "julhas@example.com",
-    phone: "+880 1XXXXXXXXX",
+    email: "imrandigitalseo@gmail.com",
+    phone: "+880 1400442707",
 
     social: {
       facebook: "#",
