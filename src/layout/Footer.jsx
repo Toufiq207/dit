@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa";
 import Container from "../component/Container";
 import serviceData from "../data/serviceData";
+import LogoOne from "../assets/logo/logoOne.webp"
+import Image from "../component/Image";
 
 const Footer = () => {
   const quickLinks = [
@@ -61,10 +63,11 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start">
 
             {/* Logo */}
-            <a href="#home" className="group inline-block">
-              <h1 className="text-4xl font-bold tracking-wider text-white">
+            <a href="#home" className="group ">
+              {/* <h1 className="text-4xl font-bold tracking-wider text-white">
                 DI<span className="text-red-500">T</span>
-              </h1>
+              </h1> */}
+                <Image className='rounded-full w-[50px]' src={LogoOne}/>
             </a>
 
             {/* Description */}

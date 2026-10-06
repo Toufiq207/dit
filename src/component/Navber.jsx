@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Container from "../component/Container";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
+import Image from "./Image";
+import LogoOne from "../assets/logo/logoOne.webp"
 
 const Navber = () => {
 const [open, setOpen] = useState(false);
@@ -27,10 +29,10 @@ return (
       
       {/* Logo */}
       <a href="#home" className="group">
-        <h1 className="text-4xl font-bold tracking-wider text-white">
+        {/* <h1 className="text-4xl font-bold tracking-wider text-white">
           DI<span className="text-red-500">T</span>
-        </h1>
-
+        </h1> */}
+          <Image className='rounded-full w-[50px]' src={LogoOne}/>
         <div className="h-[2px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full" />
       </a>
 
@@ -59,9 +61,12 @@ return (
       
       {/* Logo */}
       <a href="#home">
-        <h1 className="text-3xl font-bold text-white">
+        {/* <h1 className="text-3xl font-bold text-white">
           DI<span className="text-red-500">T</span>
-        </h1>
+        </h1> */}
+
+  <Image className='rounded-full w-[50px]' src={LogoOne}/>
+
       </a>
 
       {/* Menu Button */}
