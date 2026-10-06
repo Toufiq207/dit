@@ -3,6 +3,7 @@
 import Julhas from "../assets/faculty/julhas.png";
 import Lizon from '../assets/faculty/lizon.png'
 import Imran from '../assets/faculty/imran.png'
+import Kasem from '../assets/faculty/kasem.png'
 const facultyData = [
   {
     id: 1,
@@ -45,7 +46,7 @@ const facultyData = [
   },
 
   {
-    id: 3,
+    id: 2,
     name: "MD IMRAN HOSSEN",
     img: Imran,
     sub: "Digital Marketing & SEO",
@@ -85,7 +86,7 @@ const facultyData = [
     },
   },
   {
-    id: 2,
+    id: 3,
     name: "Julhas Ahmed",
     img: Julhas,
     sub: "Japanese Language",
@@ -114,6 +115,42 @@ const facultyData = [
 
     email: "julhasahmed1@gmail.com",
     phone: "+880 1676-796903",
+
+    social: {
+      facebook: "#",
+      linkedin: "#",
+      youtube: "#",
+    },
+  },
+
+    {
+    id: 4,
+    name: "Md Abul Kasem",
+    img: Kasem,
+    sub: "Digital Marketer",
+
+    // Profile Information
+    designation: "Airtificial Intelligence Instructor",
+    experience: "3+ Years Experience",
+
+    education: "Bachelor's Airs",
+
+bio: "A passionate Artificial Intelligence Instructor and Digital Marketing professional with 3+ years of experience. He specializes in AI, SEO, and digital marketing, helping students gain practical knowledge and develop industry-ready skills for their professional careers.",
+
+    skills: [
+      "Digital Marketing",
+      "AI Expert",
+      "SEO Expert",
+    ],
+
+    courses: [
+      "Digital Marketing",
+      "AI Training",
+      
+    ],
+
+    email: "muhammadabkasem@gmail.com",
+    phone: "+880 1603955191",
 
     social: {
       facebook: "#",

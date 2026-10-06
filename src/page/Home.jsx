@@ -9,7 +9,7 @@ import Contact from '../layout/Contact'
 import Faq from '../layout/Faq'
 
 import Course from '../layout/Course'
-// import Faculty from './Faculty'
+import Faculty from './Faculty'
 const Home = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const Home = () => {
 
 
 <Course/>
-{/* <Faculty/> */}
+<Faculty/>
 
        
 
