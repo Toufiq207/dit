@@ -5,6 +5,7 @@ import Lizon from '../assets/faculty/lizon.png'
 import Imran from '../assets/faculty/imran.png'
 import Kasem from '../assets/faculty/kasem.png'
 import Tasin from '../assets/faculty/tasin.png'
+import User from '../assets/faculty/user.png'
 const facultyData = [
   {
     id: 1,
@@ -106,12 +107,14 @@ const facultyData = [
       "Vocabulary",
       "JLPT Preparation",
       "Japanese Writing",
+     
     ],
 
     courses: [
       "Japanese Language",
       "JLPT Preparation",
       "Japanese Conversation",
+       "Handwriting(Bangla,English)",
     ],
 
     email: "julhasahmed1@gmail.com",
@@ -187,6 +190,41 @@ bio: "Hi, I'm Tahsin, a professional video editor with around 4 years of experie
 
     email: "tih69633@gmail.com",
     phone: "+880 1317891130",
+
+    social: {
+      facebook: "#",
+      linkedin: "#",
+      youtube: "#",
+    },
+  },
+    {
+    id: 6,
+    name: "Md Fazlul Hoq",
+    img:  User ,
+    sub: "English",
+
+    // Profile Information
+    designation: "English Language Instructor",
+    experience: "16 Years Experience",
+
+    education: "M.A",
+
+bio: "",
+
+    skills: [
+      "Spoken English",
+      "English Grammer",
+      
+    ],
+
+    courses: [
+      "English Grammer",
+      
+      
+    ],
+
+    email: "Empty",
+    phone: "+880 1751692932",
 
     social: {
       facebook: "#",
