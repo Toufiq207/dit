@@ -4,6 +4,7 @@ import Julhas from "../assets/faculty/julhas.png";
 import Lizon from '../assets/faculty/lizon.png'
 import Imran from '../assets/faculty/imran.png'
 import Kasem from '../assets/faculty/kasem.png'
+import Tasin from '../assets/faculty/tasin.png'
 const facultyData = [
   {
     id: 1,
@@ -151,6 +152,41 @@ bio: "A passionate Artificial Intelligence Instructor and Digital Marketing prof
 
     email: "muhammadabkasem@gmail.com",
     phone: "+880 1603955191",
+
+    social: {
+      facebook: "#",
+      linkedin: "#",
+      youtube: "#",
+    },
+  },
+    {
+    id: 5,
+    name: "Md Tahsin islam",
+    img:  Tasin ,
+    sub: "Video editing",
+
+    // Profile Information
+    designation: "Video editing Instructor",
+    experience: "4+ Years Experience",
+
+    education: "B.A",
+
+bio: "Hi, I'm Tahsin, a professional video editor with around 4 years of experience. I specialize in creating engaging, high-quality videos through cinematic visuals, smooth transitions, and compelling storytelling. My goal is to transform raw footage into polished, professional content that captures attention and delivers a powerful message.",
+
+    skills: [
+      "Video editing",
+      "Adobe Premiere Pro",
+      "Adobe After Effects",
+    ],
+
+    courses: [
+      "Video editing",
+      
+      
+    ],
+
+    email: "tih69633@gmail.com",
+    phone: "+880 1317891130",
 
     social: {
       facebook: "#",
