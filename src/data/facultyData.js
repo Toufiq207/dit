@@ -6,6 +6,8 @@ import Imran from '../assets/faculty/imran.png'
 import Kasem from '../assets/faculty/kasem.png'
 import Tasin from '../assets/faculty/tasin.png'
 import User from '../assets/faculty/user.png'
+import Tanha from '../assets/faculty/tanha.jpeg'
+import Mosiur from '../assets/faculty/mosiur.png'
 const facultyData = [
   {
     id: 1,
@@ -235,7 +237,7 @@ bio: "",
   {
   id: 7,
   name: "Tanha Mehedi",
-  img: User,
+  img: Tanha,
   sub: "Computer Office Application",
 
   designation: "Computer Office Application Instructor",
@@ -274,32 +276,35 @@ bio: "",
   },
 },
 {
-  id: 7,
-  name: "Rasel Khan",
-  img: User,
-  sub: "Mathematics",
+  id: 8,
+  name: "Md Mosiur Rahman",
+  img: Mosiur,
+  sub: "Japanese Language",
 
-  designation: "Mathematics Instructor",
+  designation: "Japanese Language Instructor",
   experience: "16 Years Experience",
 
   education: "M.A",
 
-  bio: "An experienced Mathematics Instructor with 16 years of teaching experience. Specializes in mathematical concepts, problem-solving techniques, algebra, geometry, arithmetic, and logical reasoning. Dedicated to helping students build strong mathematical foundations, improve analytical skills, and develop confidence in solving mathematical problems.",
+  bio: "An experienced Japanese Language Instructor dedicated to helping students develop Japanese language skills. Focuses on Japanese vocabulary, grammar, pronunciation, reading, writing, listening, and speaking. Aims to help students improve their communication skills and build a strong foundation in the Japanese language.",
 
   skills: [
-    "Basic Mathematics",
-    "Arithmetic",
-    "Algebra",
-    "Geometry",
-    "Mathematical Problem Solving",
-    "Logical Reasoning",
-    "Analytical Thinking",
-    "Mathematics Teaching",
+    "Japanese Grammar",
+    "Japanese Vocabulary",
+    "Japanese Speaking",
+    "Japanese Pronunciation",
+    "Japanese Reading",
+    "Japanese Writing",
+    "Listening Comprehension",
+    "Japanese Communication Skills",
   ],
 
   courses: [
-    " Mathematics",
-    
+    "Japanese Language",
+    "Basic Japanese",
+    "Japanese Grammar",
+    "Japanese Vocabulary",
+    "Japanese Speaking Practice",
   ],
 
   email: "Empty",
