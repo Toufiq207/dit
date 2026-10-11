@@ -91,29 +91,28 @@ const facultyData = [
     id: 3,
     name: "Julhas Ahmed",
     img: Julhas,
-    sub: "Japanese Language",
+    sub: "Handwriting",
 
     // Profile Information
-    designation: "Japanese Language Instructor",
-    experience: "4+ Years Experience",
+    designation: "Handwriting Instructor",
+    experience: "16+ Years Experience",
 
     education: "Bachelor's Degree",
 
-    bio: "Julhas Ahmed is an experienced Japanese language instructor. He focuses on practical communication, vocabulary, grammar, and Japanese language proficiency for students.",
+bio: "An experienced Handwriting Instructor with over 16 years of experience in teaching Bangla and English handwriting. Dedicated to helping students improve handwriting, letter formation, writing speed, and overall presentation through effective teaching methods and regular practice.",
 
-    skills: [
-      "Japanese Grammar",
-      "Japanese Conversation",
-      "Vocabulary",
-      "JLPT Preparation",
-      "Japanese Writing",
-     
-    ],
+   skills: [
+  "Bangla Handwriting",
+  "English Handwriting",
+  "Handwriting Improvement",
+  "Letter Formation",
+  "Writing Speed Development",
+  "Handwriting Practice Techniques",
+],
 
     courses: [
-      "Japanese Language",
-      "JLPT Preparation",
-      "Japanese Conversation",
+    
+     
        "Handwriting(Bangla,English)",
     ],
 
