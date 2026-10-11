@@ -5,7 +5,7 @@ import Container from "../component/Container";
 import Heading from "../component/Heading";
 import Image from "../component/Image";
 import facultyData from "../data/facultyData";
-
+import { motion, AnimatePresence } from "framer-motion";
 import { ImCross } from "react-icons/im";
 
 const Faculty = () => {
@@ -21,46 +21,65 @@ const Faculty = () => {
 />
 
         {/* Faculty Cards */}
-        <div className="mt-8 flex flex-wrap justify-center gap-6">
-          {facultyData.map((item) => (
-            <div
-              key={item.id}
-              className="group w-full max-w-[300px] overflow-hidden rounded-2xl bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-            >
-              {/* Image */}
-              <div className="relative overflow-hidden">
-                <Image
-                  src={item.img}
-                  alt={item.name}
-                  className="h-[280px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+        <motion.div
+  className="mt-8 flex flex-wrap justify-center gap-6"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.1 }}
+  variants={{
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.15,
+      },
+    },
+  }}
+>
+  {facultyData.map((item) => (
+    <motion.div
+      key={item.id}
+      variants={{
+        hidden: { opacity: 0, y: 40 },
+        visible: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.6, ease: "easeOut" },
+        },
+      }}
+      whileHover={{ y: -8, scale: 1.02 }}
+      className="group w-full max-w-[300px] overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
+    >
+      <div className="relative overflow-hidden">
+        <Image
+          src={item.img}
+          alt={item.name}
+          className="h-[280px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
 
-                {/* Subject */}
-                <span className="absolute bottom-3 left-3 rounded-full bg-red-500 px-4 py-1.5 text-sm font-medium text-white shadow">
-                  {item.sub}
-                </span>
-              </div>
+        <span className="absolute bottom-3 left-3 rounded-full bg-red-500 px-4 py-1.5 text-sm font-medium text-white shadow">
+          {item.sub}
+        </span>
+      </div>
 
-              {/* Content */}
-              <div className="p-5 text-center">
-                <h2 className="text-xl font-bold text-gray-800">
-                  {item.name}
-                </h2>
+      <div className="p-5 text-center">
+        <h2 className="text-xl font-bold text-gray-800">
+          {item.name}
+        </h2>
 
-                <p className="mt-1 text-sm text-gray-500">
-                  Instructor
-                </p>
+        <p className="mt-1 text-sm text-gray-500">
+          {item.designation || "Instructor"}
+        </p>
 
-                <button
-                  onClick={() => setSelectedFaculty(item)}
-                  className="mt-4 rounded-lg bg-gray-900 px-6 py-2.5 text-sm font-semibold text-white transition duration-300 hover:bg-red-500"
-                >
-                  View Profile
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
+        <button
+          onClick={() => setSelectedFaculty(item)}
+          className="mt-4 rounded-lg bg-gray-900 px-6 py-2.5 text-sm font-semibold text-white transition duration-300 hover:bg-red-500"
+        >
+          View Profile
+        </button>
+      </div>
+    </motion.div>
+  ))}
+</motion.div>
       </Container>
 
       {/* Profile Modal */}
