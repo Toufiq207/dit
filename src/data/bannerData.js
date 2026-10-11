@@ -19,8 +19,8 @@ const bannerData=[
   },
  
   {
-    id:3,
-    banner:Bannertwo
+    id:4,
+    banner:Bannerthree
   },
  
   
