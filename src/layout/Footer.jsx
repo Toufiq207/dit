@@ -31,7 +31,7 @@ const Footer = () => {
     // },
     {
       icon: <FaFacebookF />,
-      link: "https://www.facebook.com/julhas.ahmed.7547",
+      link: "https://www.facebook.com/onlineeducationbydhakait/",
       label: "Facebook",
     },
     {

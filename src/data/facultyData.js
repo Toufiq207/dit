@@ -231,6 +231,48 @@ bio: "",
       youtube: "#",
     },
   },
+
+  {
+  id: 7,
+  name: "Emdad",
+  img: User,
+  sub: "Computer Office Application",
+
+  designation: "Computer Office Application Instructor",
+  experience: "16 Years Experience",
+
+  education: "M.A",
+
+  bio: "An experienced Computer Office Application Instructor with 16 years of teaching experience. Specializes in Microsoft Word, Microsoft Excel, Microsoft PowerPoint, office productivity, document formatting, spreadsheet management, and professional presentation skills. Dedicated to helping students develop practical computer skills for academic, professional, and career development.",
+
+  skills: [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Office Document Formatting",
+    "Spreadsheet Management",
+    "Presentation Design",
+    "Computer Fundamentals",
+    "Office Productivity",
+  ],
+
+  courses: [
+    "Computer Office Application",
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Basic Computer Training",
+  ],
+
+  email: "Empty",
+  phone: "+880 1751692932",
+
+  social: {
+    facebook: "#",
+    linkedin: "#",
+    youtube: "#",
+  },
+}
 ];
 
 export default facultyData;
