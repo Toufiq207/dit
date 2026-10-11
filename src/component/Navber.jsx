@@ -17,6 +17,10 @@ const menuItems = [
 { name: "FAQ", link: "#faq" },
 
 { name: "Contact", link: "#contact" },
+ {
+    name: "Apply",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdhKbHIo2J7eWmoEQvt834jGAjFlb_US1wR4z0zg_5pQpEOyg/viewform?usp=publish-editor",
+  },
 ];
 
 return ( 

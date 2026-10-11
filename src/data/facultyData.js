@@ -91,10 +91,10 @@ const facultyData = [
     id: 3,
     name: "Julhas Ahmed",
     img: Julhas,
-    sub: "Handwriting",
+    sub: "Hand writing Expart",
 
     // Profile Information
-    designation: "Handwriting Instructor",
+    designation: "Hand writing Instructor",
     experience: "16+ Years Experience",
 
     education: "Bachelor's Degree",
@@ -102,7 +102,7 @@ const facultyData = [
 bio: "An experienced Handwriting Instructor with over 16 years of experience in teaching Bangla and English handwriting. Dedicated to helping students improve handwriting, letter formation, writing speed, and overall presentation through effective teaching methods and regular practice.",
 
    skills: [
-  "Bangla Handwriting",
+  "Bangla Hand writing",
   "English Handwriting",
   "Handwriting Improvement",
   "Letter Formation",
