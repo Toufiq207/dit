@@ -130,7 +130,7 @@ bio: "An experienced Handwriting Instructor with over 16 years of experience in 
     id: 4,
     name: "Md Abul Kasem",
     img: Kasem,
-    sub: "Digital Marketer",
+    sub: "AI Expart",
 
     // Profile Information
     designation: "Airtificial Intelligence Instructor",
@@ -234,7 +234,7 @@ bio: "",
 
   {
   id: 7,
-  name: "Emdad",
+  name: "Tanha Mehedi",
   img: User,
   sub: "Computer Office Application",
 
@@ -265,7 +265,45 @@ bio: "",
   ],
 
   email: "Empty",
-  phone: "+880 1751692932",
+  phone: "+880 1676796903",
+
+  social: {
+    facebook: "#",
+    linkedin: "#",
+    youtube: "#",
+  },
+},
+{
+  id: 7,
+  name: "Rasel Khan",
+  img: User,
+  sub: "Mathematics",
+
+  designation: "Mathematics Instructor",
+  experience: "16 Years Experience",
+
+  education: "M.A",
+
+  bio: "An experienced Mathematics Instructor with 16 years of teaching experience. Specializes in mathematical concepts, problem-solving techniques, algebra, geometry, arithmetic, and logical reasoning. Dedicated to helping students build strong mathematical foundations, improve analytical skills, and develop confidence in solving mathematical problems.",
+
+  skills: [
+    "Basic Mathematics",
+    "Arithmetic",
+    "Algebra",
+    "Geometry",
+    "Mathematical Problem Solving",
+    "Logical Reasoning",
+    "Analytical Thinking",
+    "Mathematics Teaching",
+  ],
+
+  courses: [
+    " Mathematics",
+    
+  ],
+
+  email: "Empty",
+  phone: "Empty",
 
   social: {
     facebook: "#",
@@ -273,6 +311,7 @@ bio: "",
     youtube: "#",
   },
 }
+
 ];
 
 export default facultyData;
